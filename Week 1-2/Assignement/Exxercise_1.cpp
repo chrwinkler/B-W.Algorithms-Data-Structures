@@ -11,7 +11,7 @@ int main(void)
     int N = rand() % 10;
     int rNum;
     std::vector<int> List;
-    std::vector<int> itr;
+    std::vector<int>::iterator itr;
 
     for (int i = 0; i < N; i++)
     {
