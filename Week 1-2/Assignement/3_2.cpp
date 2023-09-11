@@ -2,7 +2,7 @@
 #include <time.h>
 #include <math.h>
 
-int myMethod(int n)
+void myMethod(int n)
 {
     int sum = 0;
     for (int i = 0; i < n; ++i)
