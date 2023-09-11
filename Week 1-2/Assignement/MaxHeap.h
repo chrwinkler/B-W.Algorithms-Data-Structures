@@ -1,5 +1,5 @@
-#ifndef _MAXHEAP_H_
-#define _MAXHEAP_H_
+#pragma once
+#include <vector>
 
 using namespace std;
 
@@ -21,5 +21,3 @@ public:
     // Delete and return the maximum element of the heap
     virtual int deleteMax() = 0;
 };
-
-#endif
