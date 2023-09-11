@@ -9,7 +9,7 @@ using namespace std;
 
 int main(void)
 {
-
+    srand(time(NULL));
     int N = rand() % 100; // Generates a random N and M to determine how many numbers
     int M = rand() % 100;
     int rNum;
@@ -18,7 +18,7 @@ int main(void)
     std::vector<int>::iterator Nitr;
     std::vector<int>::iterator Mitr;
     int counter = 0;
-    srand(time(NULL));
+
     cout << "List of M numbers: ";
     for (int i = 0; i < M; i++) // Generates the M random numbers and prints them
     {
