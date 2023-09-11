@@ -2,13 +2,14 @@
 #include <time.h>
 #include <math.h>
 
-void myMethod(int n)
+int myMethod(int n)
 {
     int sum = 0;
     for (int i = 0; i < n; ++i)
     {
         ++sum;
     }
+    return sum;
 }
 
 int main(void)
